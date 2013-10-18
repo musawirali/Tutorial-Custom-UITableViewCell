@@ -22,6 +22,8 @@
 		F346FB0F1810ED7000CD228A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F346FAEE1810ED6F00CD228A /* UIKit.framework */; };
 		F346FB171810ED7000CD228A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F346FB151810ED7000CD228A /* InfoPlist.strings */; };
 		F346FB191810ED7000CD228A /* CustomCellTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F346FB181810ED7000CD228A /* CustomCellTutorialTests.m */; };
+		F346FB231810F1E700CD228A /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F346FB221810F1E700CD228A /* MyCustomCell.xib */; };
+		F346FB261810F3D000CD228A /* MyCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F346FB251810F3D000CD228A /* MyCustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		F346FB141810ED7000CD228A /* CustomCellTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomCellTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		F346FB161810ED7000CD228A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F346FB181810ED7000CD228A /* CustomCellTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellTutorialTests.m; sourceTree = "<group>"; };
+		F346FB221810F1E700CD228A /* MyCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCustomCell.xib; sourceTree = "<group>"; };
+		F346FB241810F3D000CD228A /* MyCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomCell.h; sourceTree = "<group>"; };
+		F346FB251810F3D000CD228A /* MyCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +125,9 @@
 				F346FAFF1810ED6F00CD228A /* Main_iPad.storyboard */,
 				F346FB021810ED6F00CD228A /* ViewController.h */,
 				F346FB031810ED6F00CD228A /* ViewController.m */,
+				F346FB221810F1E700CD228A /* MyCustomCell.xib */,
+				F346FB241810F3D000CD228A /* MyCustomCell.h */,
+				F346FB251810F3D000CD228A /* MyCustomCell.m */,
 				F346FB051810ED6F00CD228A /* Images.xcassets */,
 				F346FAF11810ED6F00CD228A /* Supporting Files */,
 			);
@@ -235,6 +243,7 @@
 				F346FB061810ED6F00CD228A /* Images.xcassets in Resources */,
 				F346FAFE1810ED6F00CD228A /* Main_iPhone.storyboard in Resources */,
 				F346FAF51810ED6F00CD228A /* InfoPlist.strings in Resources */,
+				F346FB231810F1E700CD228A /* MyCustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +264,7 @@
 			files = (
 				F346FB041810ED6F00CD228A /* ViewController.m in Sources */,
 				F346FAFB1810ED6F00CD228A /* AppDelegate.m in Sources */,
+				F346FB261810F3D000CD228A /* MyCustomCell.m in Sources */,
 				F346FAF71810ED6F00CD228A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
